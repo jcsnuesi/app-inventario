@@ -1,15 +1,15 @@
-'use strict'
+// 'use strict'
 
-let express = require('express');
+// let express = require('express');
 
-let app = express();
+// let app = express();
 
-app.use(express.static(__dirname +'/dist/inventory-app'));
+// app.use(express.static(__dirname +'/dist/inv-front-end/inventory-app'));
 
-app.get('/*', (req, res)=> {
+// app.get('/*', (req, res)=> {
 
-    res.sendFile(__dirname +'/dist/inventory-app/index.html')
-})
+//     res.sendFile(__dirname +'/dist/inventory-app/index.html')
+// })
 
 
-app.listen(process.env.PORT || 8000);
+// app.listen(process.env.PORT || 8000);
