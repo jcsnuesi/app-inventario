@@ -36,9 +36,9 @@
     "uuid": "^9.0.0",
     "zone.js": "~0.12.0"
   },
-  "engines":{
-      "node": "17.3.1",
-      "npm": "8.10.0"
+  "engines": {
+    "node": "17.3.1",
+    "npm": "8.10.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.0.4",
@@ -51,7 +51,19 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    
     "typescript": "~4.8.2"
-  }
+  },
+  "description": "<<<<<<< HEAD\r # InventoryApp",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcsnuesi/app-inventario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcsnuesi/app-inventario/issues"
+  },
+  "homepage": "https://github.com/jcsnuesi/app-inventario#readme"
 }
